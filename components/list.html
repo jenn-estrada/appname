@@ -1,0 +1,35 @@
+<div class="content-container flex list">
+    <div class="content-bar an-margin">
+        <input class="border-grey border-radius name-bar" ng-model="$root.searchTerm" ng-change="$ctrl.backToSearch()"/>
+
+        <div ng-repeat="item in $ctrl.list" class="border-grey flex repeater" ng-click="$ctrl.openDetailed(item)">
+            <div class="border-grey border-radius flex cube">
+                <div class="an-padding" ng-if="item.results.toUpperCase() === 'PASS'">
+                    <i class="fa fa-check fa-3x"></i>
+                </div> 
+                <div class="an-padding" ng-if="item.results.toUpperCase() != 'PASS'">
+                    <i class="fa fa-exclamation-triangle fa-3x"></i>
+                </div> 
+            </div>
+            <div class="info">
+                <div class="flex">
+                    <div class="name-label flex an-padding-lr">{{item.aka_name}}</div>
+                    <div class="addr-label flex an-padding-lr">{{item.address}}</div>
+                </div>
+                <div class="flex an-padding-lr violations">
+                    {{item.violations}}
+                </div>
+            </div>
+        </div>
+        <div class="flex button-row">
+                <button ng-disabled="$ctrl.currentPage === 0" class="button flex" ng-click="$ctrl.decPage()">
+                    <i class="fa fa-chevron-left an-padding"></i>
+                    <div class="an-padding">Previous</div>
+                </button>
+                <button ng-disabled="($ctrl.currentPage === $ctrl.pageCount - 1)" class="button flex" ng-click="$ctrl.incPage()">
+                    <div class="an-padding">Next</div>
+                    <i class="fa fa-chevron-right an-padding"></i>
+                </button>
+        </div>
+    </div>
+</div>

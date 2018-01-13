@@ -1,0 +1,57 @@
+.list {
+
+    .name-label {
+        font-size:0.8em;
+        font-weight: bold;
+        margin-top: auto;
+    }
+
+    .addr-label {
+        font-size:0.6em;
+        color: #9b9b9b;
+        margin-top: auto;
+    }
+
+    .name-bar {
+        width:560px;
+        margin-right:1.25em;
+        height:2.25em;
+        padding-left: 1em;
+    }
+
+    .repeater { 
+        padding:0.25em;
+        margin:1em 0;
+        background:#ffffff;
+
+        .info {
+            width:460px;        
+        }
+    }
+
+    .cube {
+        width:80px;
+        height:80px;
+        background-color:#f2f2f2;
+    }
+
+    .violations {
+        font-size:0.5em;
+        height:60px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .button-row {
+        justify-content: space-between;
+
+        .button {
+            width:115px;
+            height:2.5em;
+            border-radius:5px;
+            border:0.5px solid #898989;
+            font-size:0.6em;
+            justify-content: space-between;
+        }
+    }
+}

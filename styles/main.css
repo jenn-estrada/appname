@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0px; }
+
+html {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400; }
+
+body {
+  font-size: 1.2em;
+  line-height: normal; }
+
+.flex {
+  display: flex; }
+
+.appname {
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0.25em; }
+
+.content-bar {
+  width: 560px;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: 0.5px solid #9e9e9e; }
+
+.content-container {
+  align-items: center;
+  justify-content: center;
+  padding-top: 3em; }
+
+.border-radius {
+  border-radius: 5px; }
+
+.border-grey {
+  border: 0.5px solid #898989; }
+
+.an-margin {
+  margin: 1.5em; }
+
+.an-padding {
+  padding: 0.5em; }
+
+.an-padding-lr {
+  padding: 0 0.5em; }
+
+.search-term {
+  width: 420px;
+  margin-right: 1.25em;
+  border-radius: 5px;
+  border: 0.5px solid #898989;
+  height: 2.25em;
+  padding-left: 1em; }
+
+.search-button {
+  width: 115px;
+  border-radius: 5px;
+  border: 0.5px solid #898989;
+  font-size: 0.6em; }
+
+.list .name-label {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-top: auto; }
+
+.list .addr-label {
+  font-size: 0.6em;
+  color: #9b9b9b;
+  margin-top: auto; }
+
+.list .name-bar {
+  width: 560px;
+  margin-right: 1.25em;
+  height: 2.25em;
+  padding-left: 1em; }
+
+.list .repeater {
+  padding: 0.25em;
+  margin: 1em 0;
+  background: #ffffff; }
+  .list .repeater .info {
+    width: 460px; }
+
+.list .cube {
+  width: 80px;
+  height: 80px;
+  background-color: #f2f2f2; }
+
+.list .violations {
+  font-size: 0.5em;
+  height: 60px;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.list .button-row {
+  justify-content: space-between; }
+  .list .button-row .button {
+    width: 115px;
+    height: 2.5em;
+    border-radius: 5px;
+    border: 0.5px solid #898989;
+    font-size: 0.6em;
+    justify-content: space-between; }
+
+.detailed .back-button {
+  height: 2.5em;
+  width: 200px;
+  font-size: 0.6em;
+  margin: 1em 0; }
+
+.detailed .category-label {
+  width: 250px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: auto; }
+
+.detailed .violations {
+  font-size: 0.5em;
+  background-color: #ffffff;
+  width: 300px;
+  height: 30em;
+  padding: 0.25em;
+  overflow-y: scroll; }

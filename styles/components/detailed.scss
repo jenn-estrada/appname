@@ -1,0 +1,25 @@
+.detailed {
+
+    .back-button {
+        height:2.5em;
+        width:200px;
+        font-size:0.6em;
+        margin: 1em 0;
+    }
+
+    .category-label {
+        width: 250px;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin-bottom: auto;
+    }
+
+    .violations {
+        font-size: 0.5em;
+        background-color:#ffffff;
+        width: 300px;
+        height: 30em; padding:0.25em;
+        overflow-y: scroll;
+    }
+
+}
